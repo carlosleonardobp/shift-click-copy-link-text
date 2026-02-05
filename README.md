@@ -1,42 +1,41 @@
 # Shift+Click Copy Link Text
 
-👉 **[Instalar UserScript (Tampermonkey)](https://github.com/carlosleonardobp/shift-click-copy-link-text/raw/main/shift-click-copy-link-text.user.js)** 👈
+[![Instalar](https://img.shields.io/badge/Instalar_no-Tampermonkey-brightgreen)](https://github.com/carlosleonardobp/shift-click-copy-link-text/raw/main/shift-click-copy-link-text.user.js)
 
-UserScript for **Tampermonkey (Edge / Chromium)** that allows you to copy the text of any link using **Shift + Left Click**, without opening the link or downloading files.
+UserScript para **Tampermonkey (Edge / Chromium)** que permite copiar o texto de qualquer link usando **Shift + Clique Esquerdo**, sem abrir o link ou baixar arquivos.
 
-## ✨ Features
+## ✨ Funcionalidades
 
-- Shift + Left Click copies the link text
-- Does not open a new tab
-- Does not download files
-- Visual tooltip 📋 Copied
-- Works on dynamic pages (SPA)
+- Shift + Clique Esquerdo → copia o texto do link
+- Não abre nova aba
+- Não faz download
+- Tooltip visual 📋 Copiado
+- Funciona em páginas dinâmicas (SPA)
 
-## 🧩 Requirements
+## 🧩 Requisitos
 
-- Microsoft Edge or another Chromium-based browser
-- **Tampermonkey** extension
+- Microsoft Edge ou outro navegador Chromium
+- Extensão **Tampermonkey**
 
-## 📥 Installation
+## 📥 Instalação
 
-1. Install Tampermonkey
-2. Click the file below:
+1. Instale o Tampermonkey
+2. Clique no arquivo abaixo:
    - [`shift-click-copy-link-text.user.js`](shift-click-copy-link-text.user.js)
+3. Confirme a instalação no Tampermonkey
 
-3. Confirm the installation in Tampermonkey
+## 🖱️ Como usar
 
-## 🖱️ How to use
+- **Shift + Clique Esquerdo** em qualquer link → texto copiado
 
-- **Shift + Left Click** on any link → text copied
+## 🔧 Personalização
 
-## 🔧 Customization
+Você pode editar o script para:
 
-You can edit the script to:
+- Copiar o `href`
+- Copiar texto + URL
+- Alterar o atalho (Ctrl + Shift + Click)
 
-- Copy the `href`
-- Copy text + URL
-- Change the shortcut (Ctrl + Shift + Click)
-
-## 📄 License
+## 📄 Licença
 
 MIT

@@ -6,6 +6,8 @@
 // @author       https://github.com/carlosleonardobp
 // @match        *://*/*
 // @grant        none
+// @downloadURL https://github.com/carlosleonardobp/shift-click-copy-link-text/raw/main/shift-click-copy-link-text.user.js
+// @updateURL   https://github.com/carlosleonardobp/shift-click-copy-link-text/raw/main/shift-click-copy-link-text.user.js
 // ==/UserScript==
 
 ;(function () {
