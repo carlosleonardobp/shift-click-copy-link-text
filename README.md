@@ -1,12 +1,12 @@
-# Shift+Click Copy Link Text
+# Alt+Click Copy Link Text
 
-[![Instalar](https://img.shields.io/badge/Instalar_no-Tampermonkey-brightgreen)](https://github.com/carlosleonardobp/shift-click-copy-link-text/raw/main/shift-click-copy-link-text.user.js)
+[![Instalar](https://img.shields.io/badge/Instalar_no-Tampermonkey-brightgreen)](https://github.com/carlosleonardobp/alt-click-copy-link-text/raw/main/alt-click-copy-link-text.user.js)
 
-UserScript para **Tampermonkey (Edge / Chromium)** que permite copiar o texto de qualquer link usando **Shift + Clique Esquerdo**, sem abrir o link ou baixar arquivos.
+UserScript para **Tampermonkey (Edge / Chromium)** que permite copiar o texto de qualquer link usando **Alt + Clique Direito**, sem abrir o link ou baixar arquivos.
 
 ## ✨ Funcionalidades
 
-- Shift + Clique Esquerdo → copia o texto do link
+- Alt + Clique Direito → copia o texto do link
 - Não abre nova aba
 - Não faz download
 - Tooltip visual 📋 Copiado
@@ -21,12 +21,12 @@ UserScript para **Tampermonkey (Edge / Chromium)** que permite copiar o texto de
 
 1. Instale o Tampermonkey
 2. Clique no arquivo abaixo:
-   - [`shift-click-copy-link-text.user.js`](shift-click-copy-link-text.user.js)
+   - [`alt-click-copy-link-text.user.js`](alt-click-copy-link-text.user.js)
 3. Confirme a instalação no Tampermonkey
 
 ## 🖱️ Como usar
 
-- **Shift + Clique Esquerdo** em qualquer link → texto copiado
+- **Alt + Clique Direito** em qualquer link → texto copiado
 
 ## 🔧 Personalização
 

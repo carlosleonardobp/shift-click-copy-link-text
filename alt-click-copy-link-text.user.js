@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         Shift+Click Copy Link Text
-// @namespace    https://github.com/carlosleonardobp/shift-click-copy-link-text
+// @name         Alt+Click Copy Link Text
+// @namespace    https://github.com/carlosleonardobp/alt-click-copy-link-text
 // @version      1.0.0
-// @description  Shift + Left Click to copy the text from any link and show a confirmation tooltip for any browser using Tampermonkey.
+// @description  Alt + Right Click to copy the text from any link and show a confirmation tooltip for any browser using Tampermonkey.
 // @author       https://github.com/carlosleonardobp
 // @match        *://*/*
 // @grant        none
-// @downloadURL https://github.com/carlosleonardobp/shift-click-copy-link-text/raw/main/shift-click-copy-link-text.user.js
-// @updateURL   https://github.com/carlosleonardobp/shift-click-copy-link-text/raw/main/shift-click-copy-link-text.user.js
+// @downloadURL https://github.com/carlosleonardobp/alt-click-copy-link-text/raw/main/alt-click-copy-link-text.user.js
+// @updateURL   https://github.com/carlosleonardobp/alt-click-copy-link-text/raw/main/alt-click-copy-link-text.user.js
 // ==/UserScript==
 
 ;(function () {
@@ -46,7 +46,7 @@
   document.addEventListener(
     "mousedown",
     function (e) {
-      if (!e.shiftKey || e.button !== 0) return
+      if (!e.altKey || e.button !== 2) return
 
       const link = e.target.closest("a")
       if (!link) return
